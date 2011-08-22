@@ -1,0 +1,12 @@
+<project name="openbeans" default="jar">
+
+	<target name="jar">
+		<mkdir dir="dist"/>
+		<jar destfile="dist/openbeans.jar">
+		 	<fileset dir="bin">
+		 		<include name="**/*"/>
+		 	</fileset>
+		</jar>
+	</target>
+	
+</project>
