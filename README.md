@@ -8,6 +8,6 @@ This release is a new version which is published to Maven Central under new GAV 
 
 The new coordinates are `me.champeau.openbeans:openbeans:1.0.1`
 
-There are no changes to source code but the library is built with Java 8.
+There are no changes to source code but the library is built with Java 8 but targetting Java 6 compatibility.
 
 
