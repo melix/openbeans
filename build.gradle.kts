@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "me.champeau.openbeans"
-version = "1.0.1"
+version = "1.0.2"
 description = "Openbeans for Android"
 
 java {

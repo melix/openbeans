@@ -17,47 +17,15 @@
 
 package com.googlecode.openbeans;
 
-import java.awt.Choice;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Insets;
-import java.awt.List;
-import java.awt.Menu;
-import java.awt.MenuBar;
-import java.awt.MenuShortcut;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.ScrollPane;
-import java.awt.SystemColor;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.font.TextAttribute;
-import com.googlecode.openbeans.ArrayPersistenceDelegate;
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.DefaultPersistenceDelegate;
-import com.googlecode.openbeans.ExceptionListener;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.Introspector;
-import com.googlecode.openbeans.NullPersistenceDelegate;
-import com.googlecode.openbeans.PersistenceDelegate;
-import com.googlecode.openbeans.ProxyPersistenceDelegate;
-import com.googlecode.openbeans.Statement;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.Collection;
 import java.util.Date;
 import java.util.Hashtable;
 import java.util.IdentityHashMap;
-import java.util.Map;
-
-import javax.swing.Box;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JFrame;
-import javax.swing.JTabbedPane;
-import javax.swing.ToolTipManager;
 
 /**
  * The <code>Encoder</code>, together with <code>PersistenceDelegate</code> s,

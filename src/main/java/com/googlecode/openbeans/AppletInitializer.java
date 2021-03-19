@@ -17,8 +17,9 @@
 
 package com.googlecode.openbeans;
 
-import java.applet.Applet;
 import com.googlecode.openbeans.beancontext.BeanContext;
+
+import java.applet.Applet;
 
 public interface AppletInitializer {
 
